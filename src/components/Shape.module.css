@@ -1,0 +1,25 @@
+.shape {
+    position: absolute; /* 드래그 블록을 보드 기준으로 위치 */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: grab;
+    z-index: 10; /* 보드 위로 드래그 가능하도록 */
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.shapeCell {
+    border: 1px solid #000;
+    background-color: blue;
+}
+
+.emptyCell {
+    border: 1px solid transparent;
+    background-color: transparent;
+}

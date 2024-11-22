@@ -1,0 +1,80 @@
+/* GameBoard.module.css */
+.gameBoard {
+    position: relative; /* 추가 */
+    display: grid;
+    grid-template-columns: repeat(6, 50px);
+    grid-template-rows: repeat(6, 50px);
+    grid-gap: 5px;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    width: 330px; /* (50 * 6) + (5 * 5) */
+    height: 330px; /* (50 * 6) + (5 * 5) */
+}
+
+.gridCell {
+    width: 50px;
+    height: 50px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.gridCellFilled {
+    background-color: #4caf50;
+}
+
+.gridCellPreview {
+    background-color: rgba(0, 0, 255, 0.3); /* 프리뷰 색상 */
+}
+
+/* Shape.module.css */
+.shape {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: grab;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.shapeCell {
+    border: 1px solid #000;
+    background-color: blue;
+}
+
+.emptyCell {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+/* HomePage.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.gameWrapper {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.shapesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
