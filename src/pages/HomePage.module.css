@@ -6,20 +6,31 @@
   margin: 0 auto;
   padding: 20px;
   max-width: 1200px;
+  background-image: url('https://img.freepik.com/free-photo/beige-wooden-textured-flooring-background_53876-129605.jpg'); /* 나무 텍스처 이미지 */
 }
 
-.game-wrapper {
+.gameWrapper {
   display: flex;
   gap: 20px;
+  flex-direction: row;
   align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+  background-color: #4b2e2e; /* 진한 갈색 배경 */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 약간의 입체감 */
 }
 
-.shapes-container {
+.shapesContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 10px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  background-color: #f9f9f9;
-  border-radius: 8px;
+  padding: 20px;
+  background-color: #5c3b3b; /* 진한 갈색 배경 */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  height: 400px;
+
 }

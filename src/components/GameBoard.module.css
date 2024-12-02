@@ -5,11 +5,13 @@
     grid-template-columns: repeat(6, 50px);
     grid-template-rows: repeat(6, 50px);
     grid-gap: 5px;
-    border: 1px solid #ddd;
-    margin: 20px auto;
-    background-color: #f9f9f9;
-    width: 330px; /* (50 * 6) + (5 * 5) */
-    height: 330px; /* (50 * 6) + (5 * 5) */
+    border: 1px solid #5c3b3b;
+    margin: 50px auto;
+    /*background-color: #f9f9f9;*/
+    width: 325px; /* (50 * 6) + (5 * 5) */
+    height: 325px; /* (50 * 6) + (5 * 5) */
+    background-color: #5c3b3b;
+
 }
 
 .gridCell {
@@ -77,4 +79,5 @@
     border: 1px solid #ddd;
     background-color: #f9f9f9;
     border-radius: 8px;
+
 }
